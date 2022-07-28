@@ -1,0 +1,49 @@
+{
+    "songs": [
+        {
+            "artist": "Dido",
+            "track": "Thank you",
+            "album_cover": "images/download.jpeg",
+            "audio_file": "audio/dido-thank-you.mp3"
+        },
+        {
+            "artist": "Eminem ft Dido",
+            "track": "Stan",
+            "album_cover": "images/download.jpeg",
+            "audio_file": "audio/eminem-stan-dido.mp3"
+        },
+        {
+            "artist": "Eminem ft Dido",
+            "track": "Stan",
+            "album_cover": "images/download.jpeg",
+            "audio_file": "audio/eminem-stan-dido.mp3"
+        },
+        {
+            "artist": "Eminem ft Dido",
+            "track": "Stan",
+            "album_cover": "images/download.jpeg",
+            "audio_file": "audio/eminem-stan-dido.mp3"
+        },
+        {
+            "artist": "Eminem ft Dido",
+            "track": "Stan",
+            "album_cover": "images/download.jpeg",
+            "audio_file": "audio/eminem-stan-dido.mp3"
+        }, 
+        
+        {
+            "artist": "Eminem ft Dido",
+            "track": "Stan",
+            "album_cover": "images/download.jpeg",
+            "audio_file": "audio/eminem-stan-dido.mp3"
+        },
+        {
+            "artist": "Eminem ft Dido",
+            "track": "Stan",
+            "album_cover": "images/download.jpeg",
+            "audio_file": "audio/eminem-stan-dido.mp3"
+        } 
+
+    ]
+    
+}

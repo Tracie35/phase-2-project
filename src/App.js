@@ -1,19 +1,42 @@
-import React, { useEffect } from "react";
-import Login from "./components/Login";
-import Spotify from "./components/Spotify";
-import { reducerCases } from "./utils/Constants";
-import { useStateProvider } from "./utils/StateProvider";
-export default function App() {
-  const [{ token }, dispatch] = useStateProvider();
-  useEffect(() => {
-    const hash = window.location.hash;
-    if (hash) {
-      const token = hash.substring(1).split("&")[0].split("=")[1];
-      if (token) {
-        dispatch({ type: reducerCases.SET_TOKEN, token });
+import React, { useEffect, useState } from "react";
+
+function App() {
+  const [songs, setSongs] = useState([]);
+
+  useEffect(()=>{
+    fetch("http://localhost:5000/songs")
+    .then((resp)=>resp.json())
+    .then((data)=>{
+      setSongs(data)
+    }) 
+  }, []);
+
+  return (
+    <div className="container">
+      <div className="row">
+      {
+
+        songs.map((song, index) => {
+          return <div key={index} className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="card">
+              <img src={"images/download.jpeg"} class="card-img-top" alt="..."/>
+              <div class="card-body">
+                <h5 class="card-title">{song?.track || 'song'}</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                
+                <audio src={song?.audio_file} controls>
+
+                        </audio>
+              </div>
+            </div>
+          </div>
+        })
       }
-    }
-    document.title = "Spotify";
-  }, [dispatch, token]);
-  return <div>{token ? <Spotify /> : <Login />}</div>;
+      </div>
+    </div>
+    
+    
+  )
 }
+
+export default App;
