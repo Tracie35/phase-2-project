@@ -1,47 +1,53 @@
 {
     "songs": [
         {
-            "artist": "Dido",
-            "track": "Thank you",
-            "album_cover": "images/download.jpeg",
-            "audio_file": "audio/dido-thank-you.mp3"
+            "artist": "Burna boy",
+            "track": "Last Last",
+            "album_cover": "images/dido1.jpeg",
+            "audio_file": "audio/lastlast.mp3"
         },
         {
-            "artist": "Eminem ft Dido",
-            "track": "Stan",
+            "artist": "Burna boy",
+            "track": "Vanilla",
             "album_cover": "images/download.jpeg",
-            "audio_file": "audio/eminem-stan-dido.mp3"
+            "audio_file": "audio/burna-boy-vanilla.mp3"
         },
         {
-            "artist": "Eminem ft Dido",
-            "track": "Stan",
-            "album_cover": "images/download.jpeg",
-            "audio_file": "audio/eminem-stan-dido.mp3"
+            "artist": "Burna boy feat J Hus ",
+            "track": "Cloak",
+            "album_cover": "images/dojawoman.jpg",
+            "audio_file": "audio/cloak-burna.mp3"
         },
         {
-            "artist": "Eminem ft Dido",
-            "track": "Stan",
+            "artist": "Burna boy",
+            "track": "Science",
             "album_cover": "images/download.jpeg",
-            "audio_file": "audio/eminem-stan-dido.mp3"
+            "audio_file": "audio/scienceburna.mp3"
         },
         {
-            "artist": "Eminem ft Dido",
-            "track": "Stan",
+            "artist": "Burna boy",
+            "track": "Dirty Size",
             "album_cover": "images/download.jpeg",
-            "audio_file": "audio/eminem-stan-dido.mp3"
+            "audio_file": "audio/diffburna.mp3"
         }, 
         
         {
-            "artist": "Eminem ft Dido",
-            "track": "Stan",
+            "artist": "Burna boy",
+            "track": "Glory",
             "album_cover": "images/download.jpeg",
-            "audio_file": "audio/eminem-stan-dido.mp3"
+            "audio_file": "audio/gloryburna.mp3"
         },
         {
-            "artist": "Eminem ft Dido",
-            "track": "Stan",
+            "artist": "Burna boy",
+            "track": "Its Plenty",
             "album_cover": "images/download.jpeg",
             "audio_file": "audio/eminem-stan-dido.mp3"
+        }, 
+        {
+            "artist": "Burna boy",
+            "track": "Jagele",
+            "album_cover": "images/download.jpeg",
+            "audio_file": "audio/plentyburna.mp3"
         } 
 
     ]

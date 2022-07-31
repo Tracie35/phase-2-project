@@ -1,10 +1,19 @@
 import React, { useEffect, useState } from "react";
-
+import NavbarComp from "./components/NavbarComp";
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+function Nav() {
+  return(
+    <div className="App">
+    <NavbarComp/>
+    </div>
+  );
+  }
 function App() {
   const [songs, setSongs] = useState([]);
 
   useEffect(()=>{
-    fetch("http://localhost:5000/songs")
+    fetch("https://mymusic21.herokuapp.com/songs")
     .then((resp)=>resp.json())
     .then((data)=>{
       setSongs(data)
