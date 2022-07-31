@@ -13,7 +13,7 @@ function App() {
   const [songs, setSongs] = useState([]);
 
   useEffect(()=>{
-    fetch("https://mymusic21.herokuapp.com/songs")
+    fetch("http://localhost:5000/songs")
     .then((resp)=>resp.json())
     .then((data)=>{
       setSongs(data)
