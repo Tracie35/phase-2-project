@@ -31,7 +31,7 @@ function App() {
               <img src={"images/download.jpeg"} class="card-img-top" alt="..."/>
               <div class="card-body">
                 <h5 class="card-title">{song?.track || 'song'}</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Love, Damini is the sixth studio album by Nigerian singer Burna Boy. It was released on 8 July 2022 through Atlantic Records.</p>
                 
                 <audio src={song?.audio_file} controls>
 
